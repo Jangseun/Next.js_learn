@@ -1,1 +1,3 @@
-import styles from "./"
+.container{
+  padding: 10px;
+}
