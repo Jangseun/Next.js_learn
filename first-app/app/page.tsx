@@ -1,5 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Link from "next/link";
+import Navbar from "@/components/navgar";
 
 export default function Home() {
   const numList:number[] = [2,3,4,5,6,7,8,9];
@@ -11,6 +13,7 @@ export default function Home() {
   });
 
   return (
+    <>
     <div className={styles.container}>
       {numList.map((value, i) => {
         return(
@@ -27,6 +30,7 @@ export default function Home() {
           </div>
         );
       })}
-      </div>  
+      </div> 
+      </>  // div는 하나만 써야함. 그래서 묶어주는 애가 필요함 빈칸이 이런 역할
   );
 }

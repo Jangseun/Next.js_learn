@@ -3,7 +3,24 @@
   padding: 0;
 }
 
-.title {
-  height: 100vh;
-  
+button {
+  width: 70px;
+}
+
+nav {
+  width: 100vw;
+  position: fixed;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  background-color: black;
+  opacity: 90%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  display: block;
 }
