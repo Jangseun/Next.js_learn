@@ -1,4 +1,4 @@
-"use client" // 이 페이지를 클라이언트 랜더링 아무것도 안쓰면 서버 랜더
+"use client"
 import { useState } from "react";
 
 
