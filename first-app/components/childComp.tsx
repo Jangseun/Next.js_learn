@@ -4,12 +4,17 @@ export default function ChildComp({datas}: {datas: BaseBallType[]}) { //자식�
     console.log(datas);
     return (
     <>
-    {
-        datas.map((value, i) => {
-            return <div key={i}>{value.name}</div>;
-        })
-    }
+    {datas.map((value, i) => {
+            return (
+                <div key={i} className="childCompBodys">
+                <span>{value.name}</span>
+                <span>{value.win}</span>
+                <span>{value.locate}</span>
+                <br />
+                </div>
+            )
+        })}
     </>
     );
-
+// 프롭스 넘겨주는거
 }
