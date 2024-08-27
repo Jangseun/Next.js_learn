@@ -1,0 +1,15 @@
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-size: x-large;
+}
+
+.container p {
+    color: red;
+}
