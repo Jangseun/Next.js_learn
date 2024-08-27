@@ -16,5 +16,4 @@ export default function ChildComp({datas}: {datas: BaseBallType[]}) { //자식�
         })}
     </>
     );
-// 프롭스 넘겨주는거
 }
