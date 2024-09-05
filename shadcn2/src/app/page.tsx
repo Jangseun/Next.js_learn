@@ -51,7 +51,7 @@ export default function Home() {
       <div className="flex justify-center">
         <Carousel>
           <CarouselContent>
-            <CarouselItem className="basis-1/3 w-40 h-40 border">집</CarouselItem>
+            <CarouselItem className="basis-1/3 w-40 h-40 border ">집</CarouselItem>
             <CarouselItem className="basis-1/3 w-40 h-40 border">가</CarouselItem>
             <CarouselItem className="basis-1/3 w-40 h-40 border">고</CarouselItem>
             <CarouselItem className="basis-1/3 w-40 h-40 border">싶</CarouselItem>
